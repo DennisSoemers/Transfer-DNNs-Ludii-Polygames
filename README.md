@@ -9,7 +9,7 @@ The [Ludii](https://github.com/ludeme/ludii) repository contains:
 - Code to generate tensors from Ludii's internal state action action representations, return rewards, and any other code that is required by the Python-based deep learning code. More specifically, this code is implemented in the [LudiiGameWrapper.java](https://github.com/Ludeme/Ludii/blob/master/AI/src/utils/LudiiGameWrapper.java) and [LudiiStateWrapper.java](https://github.com/Ludeme/Ludii/blob/master/AI/src/utils/LudiiStateWrapper.java) files.
 - Code to identify which channels should map to each other for any given source-target pairing. This is implemented in the `moveTensorSourceChannels()` and `stateTensorSourceChannels()` methods of [LudiiGameWrapper.java](https://github.com/Ludeme/Ludii/blob/master/AI/src/utils/LudiiGameWrapper.java).
 
-## Dependency: Polygames (serch & deep learning code)
+## Dependency: Polygames (search & deep learning code)
 
 The [Polygames](https://github.com/facebookarchive/Polygames) repository contains:
 - All deep learning, neural networks, and MCTS code.
